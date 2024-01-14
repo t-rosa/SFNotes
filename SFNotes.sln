@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34414.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFNotes.Server", "SFNotes.Server\SFNotes.Server.csproj", "{55F6688C-08BD-45E9-8C16-0BC2E6C126F1}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "sfnotes.client", "sfnotes.client\sfnotes.client.esproj", "{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F6688C-08BD-45E9-8C16-0BC2E6C126F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F6688C-08BD-45E9-8C16-0BC2E6C126F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F6688C-08BD-45E9-8C16-0BC2E6C126F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F6688C-08BD-45E9-8C16-0BC2E6C126F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B5ED10-A4A8-4B36-A0EA-733DF4E3C69A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0EB046C-B6E4-4784-AA9E-7B7870CAEE57}
+	EndGlobalSection
+EndGlobal
