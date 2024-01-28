@@ -1,0 +1,13 @@
+services:
+    sfnotes-postgresql:
+        container_name: sfnotes-postgresql
+        image: postgres:16.1
+        restart: always
+        ports:
+            - 5432:5432
+        environment:
+            POSTGRES_PASSWORD: postgres
+        volumes:
+            - sfnotes-postgresql-data:/var/lib/postgresql/data
+volumes:
+    sfnotes-postgresql-data:
