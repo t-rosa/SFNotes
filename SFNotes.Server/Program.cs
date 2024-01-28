@@ -1,6 +1,12 @@
+global using System.Text.Json.Serialization;
+global using System.ComponentModel.DataAnnotations;
+
+using SFNotes.Server.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<SFNotesContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
